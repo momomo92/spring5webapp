@@ -50,6 +50,14 @@ public class Publisher {
         return id != null ? id.hashCode() : 0;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Set<Book> getBooks() {
         return books;
     }
